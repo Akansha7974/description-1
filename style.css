@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    height: 90%;
+    width: 75%;
+    border: 4px solid grey;
+    border-radius: 20px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+nav{
+    height: 8%;
+    width: 100%;
+    background-color: #353535;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+nav .colors{
+    display: flex;
+    gap: 10px;
+}
+.red{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(234, 96, 96);
+}
+.yellow{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 110);
+}
+.green{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(114, 231, 114);
+}
+nav button{
+    padding: 3px 2px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    word-spacing: 180px;
+}
+.sidebar{
+    color: white;
+    word-spacing: 10px;
+}
+.secondnav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px;
+}
+.secondnav .heading{
+    display: flex;
+    gap: 40px;
+}
+h2{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    color:grey;
+}
+ button{
+    padding:10px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+}
+.first{
+    height: 200px;
+    width: 220px;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    
+}
+.second{
+    height: 160px;
+    width: 180px;
+    position: absolute;
+    top: 75%;
+    left: 60%;   
+}
+.third{
+    height: 190px;
+    width: 210px;
+    position: absolute;
+    top: 55%;
+    left: 65%;   
+}
+.fourth{
+    height: 80px;
+    width: 100px;
+    position: absolute;
+    top: 25%;
+    left: 75%;   
+}
+.fifth{
+    height: 80px;
+    width: 100px;
+    position: absolute;
+    top: 75%;
+    left: 12%;   
+}
+.sixth{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top: 45%;
+    left: 15%; 
+}
